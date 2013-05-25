@@ -1,0 +1,48 @@
+* Sun May 01 2011 Anas Nashif <anas.nashif@intel.com> - 1.6.2
+- Fixed and cleaned up packaging
+
+* Fri Mar 26 2010 Arjan van de Ven <arjan@linux.intel.com> - 1.6.2
+- Fix perl epoch requires
+
+* Mon Aug 03 2009 Priya Vijayan <priya.vijayan@intel.com> 1.6.2
+- Initial Import to Moblin
+
+Revision 1.13  2009/02/23 11:39:02  arekm
+- rel 6; move includes to subdirectory to avoid include conflicts between this package and libuuid-devel
+
+Revision 1.12  2008/11/05 12:43:30  arekm
+- release 5
+
+Revision 1.11  2008/09/04 17:27:09  glen
+- move libossp-uuid to /lib; rel 4
+
+Revision 1.10  2008/09/03 16:02:12  glen
+- release 3 (again...)
+
+Revision 1.9  2008/09/03 13:50:29  glen
+- rel 2: autoreqdep really sucks
+
+Revision 1.8  2008/09/01 22:38:16  glen
+- up to 1.6.2
+
+Revision 1.7  2008/09/01 22:30:16  glen
+- rename to ossp-uuid
+
+Revision 1.6  2008/09/01 22:07:30  glen
+- release 1
+
+Revision 1.5  2008/06/10 20:15:49  glen
+- add ossp prefix to libs (patch from fedora)
+
+Revision 1.4  2008-06-10 20:02:58  glen
+- update to 1.6.1
+- update descs to understand that those are bindings for language not uuid addons to use language
+
+Revision 1.3  2008-06-10 18:50:42  glen
+- uuid-config to -devel
+
+Revision 1.2  2008-06-10 18:48:56  glen
+- cleanup, add bconds for bindings, todo!
+
+Revision 1.1  2008-06-10 18:27:52  glen
+- based on http://distro.ibiblio.org/pub/linux/distributions/blag/latest/en/os/i386/SPECS/uuid.spec
