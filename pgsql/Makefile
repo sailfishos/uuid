@@ -16,6 +16,7 @@ PG_CONFIG         ?= pg_config
 PGXS              := $(shell $(PG_CONFIG) --pgxs)
 POSTGRES          := $(shell $(PG_CONFIG) --bindir)/postgres
 top_builddir      := $(dir $(PGXS))../..
+mkinstalldirs     = ../shtool mkdir -p
 include           $(top_builddir)/src/Makefile.global
     
 NAME              = ossp-uuid
